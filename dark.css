@@ -1,0 +1,280 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(10, 15, 70);
+    color: rgb(233, 218, 188) ;
+    padding-top: 9vh;
+    font-family: sans-serif;
+    transition: all 1s;
+}
+
+.flexer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media only screen and (min-width:800px)    {
+    .flexer{
+        
+        flex-direction: row;
+        height: 80vh;
+    }
+
+    section{
+        flex: 13;
+        padding: 1vw;
+        height: 100%;
+      
+    }
+    .picture{
+        flex: 10;
+        padding: 1vw;
+        padding-top: 0;
+        height: 100%;
+    }
+    .side-note{
+        flex: 1;
+        padding: 1vw;
+        padding-left:0;
+        font-size: 1%;
+        height: 100%;
+        transition: all 1s;
+        border-right: 1vw rgb(206, 185, 147) solid;
+        background: rgb(233, 218, 188) ;
+    }
+
+    nav{
+        background: rgba(212, 187, 140, 0.5) ;
+    }
+
+    .side-note:hover{
+        flex: 6;
+        font-size: 73%;
+        color: rgb(10, 15, 70);
+    
+    }
+
+    .source{
+        padding-left: 15vw;
+    }
+
+    .inline{
+        padding-left: 9.5vw;
+        padding-right: 9.5vw;
+    }
+
+    .box{
+        height: 40vw;
+        max-height: 84.3vh;
+        border-left: solid 1vw rgb(218, 197, 160);
+    }
+
+    img{
+        padding: 1vw;
+        width: 40vw;
+        
+    }
+}
+
+@media only screen and (max-width:800px)    {
+    
+    .flexer{
+        
+        flex-direction: column;
+        
+    }
+
+    .side-note{
+        flex: 1;
+        order: 2;
+        padding: 1vw;
+        margin: 1vw;
+        background: rgba(212, 187, 140, 0.3) ;
+    }
+    section{
+        flex: 1;
+        order: 1;
+        margin: 1vw;
+        padding: 2vw;
+    }
+    .picture{
+
+        flex: 1;
+        order: 3;
+        padding: 1vw;
+    }
+
+    nav{
+        background: rgba(212, 187, 140, 0.7);
+    }
+
+    .source{
+        position: relative;
+        left: 35vw;
+        
+    }
+    .inline{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .box{
+        height: 56vh;
+    }
+
+    img{
+        padding: 1vw;
+        width: 95vw;
+        
+    }
+}
+
+section{
+
+    background: rgba(212, 187, 140, 0.3);
+
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    border-top: 0.2vh rgb(187, 159, 106) solid;
+    color: rgb(187, 159, 106) ;
+    font-size: 70%;
+}
+
+nav{
+    text-align: center;
+    margin-top: -1em;
+    height: 3.5em;
+    padding-top: 2vh;
+    position:fixed;
+    top:0;
+    right:0;
+    left: 0;
+    
+
+}
+
+.inline{
+    
+    display: inline;
+    border-left: solid 0.1em rgb(10, 15, 70);
+    border-right: solid 0.1em rgb(10, 15, 70);
+    
+    
+}
+
+
+
+a{
+   
+    text-decoration: none;
+    color: rgb(10, 15, 70);
+    transition: all 1s;
+}
+
+
+
+.box{
+    background: rgba(212, 187, 140, 0.3);
+}
+
+.source:hover{
+    border: none;
+
+}
+
+
+a:hover{
+    color: white;
+    border-top: solid 0.1em white ;
+}
+
+h5{
+    font-size: 160%;
+}
+
+.exotic{
+    float: right;
+}
+
+@media print{
+    html, body{
+        padding: 0;
+        margin: 0;
+        background: rgb(233, 218, 188) ;
+        color: rgb(10, 10, 50);
+        font-family: sans-serif;
+        overflow: hidden;
+        height : 100%;
+    }
+    
+    .flexer{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+
+    .flexer{
+        
+        flex-direction: column;
+        
+    }
+
+    .side-note{
+        flex: 1;
+        order: 2;
+        padding: 1vw;
+        margin: 1vw;
+        background: rgba(10, 15, 70, 0.2);
+    }
+    section{
+        flex: 1;
+        order: 1;
+        margin: 1vw;
+        padding: 2vw;
+    }
+    .picture{
+
+        flex: 1;
+        order: 3;
+        padding: 1vw;
+    }
+
+    nav{
+        background: rgba(212, 187, 140, 0.7);
+        visibility: hidden;
+    }
+
+    .source{
+        position: relative;
+        left: 35vw;
+        
+    }
+    .inline{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .box{
+        height: 56vh;
+        visibility: hidden;
+    }
+
+    img{
+        padding: 1vw;
+        width: 95vw;
+        visibility: hidden;
+    }
+
+    iframe{
+        visibility: hidden;
+
+    }
+    .exotic{
+        visibility: hidden;
+    }
+}

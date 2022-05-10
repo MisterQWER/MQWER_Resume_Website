@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(245, 221, 176);
+}
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    height:33vh;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    height:33vh;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    height:20vh;
+}
+.one1{
+    flex: 1;
+    background: rgb(10, 15, 70);
+    padding-top: 4em;
+    border: 0.5vh solid rgb(245, 221, 176);
+    border-right:  0.25vh solid rgb(245, 221, 176);
+    height: 23.5vh;
+    
+}
+.one2{
+    flex: 1;
+    background:rgb(10, 15, 70);
+    padding-top: 4em;
+    border: 0.5vh solid rgb(245, 221, 176);
+    border-right:  0.25vh solid rgb(245, 221, 176);
+    border-left:  0.25vh solid rgb(245, 221, 176);
+    height: 23.5vh;
+}
+.one3{
+    flex: 1;
+    background:rgb(10, 15, 70);
+    padding-top: 4em;
+    border: 0.5vh solid rgb(245, 221, 176);
+    border-left:  0.25vh solid rgb(245, 221, 176);
+    height: 23.5vh;
+}
+.two1{
+    flex: 1;
+    background:rgb(10, 15, 70);
+    padding-top: 4em;
+    border: 0.5vh solid rgb(245, 221, 176);
+    border-right:  0.25vh solid rgb(245, 221, 176);
+    height: 23.5vh;
+    
+}
+.two2{
+    flex: 1;
+    background:rgb(10, 15, 70);
+    padding-top: 4em;
+    border: 0.5vh solid rgb(245, 221, 176);
+    border-right:  0.25vh solid rgb(245, 221, 176);
+    border-left:  0.25vh solid rgb(245, 221, 176);
+    height: 23.5vh;
+}
+.two3{
+    flex: 1;
+    background: rgb(10, 15, 70);
+    padding-top: 4em;
+    border: 0.5vh solid rgb(245, 221, 176);
+    border-left:  0.25vh solid rgb(245, 221, 176);
+    height: 23.5vh;
+}
+.three1{
+    flex: 1;
+    background:rgb(10, 15, 70);
+    padding-top: 4em;
+    border: 0.5vh solid rgb(245, 221, 176);
+    border-right:  0.25vh solid rgb(245, 221, 176);
+    height: 23.9vh;
+}
+.three2{
+    flex: 1;
+    background:rgb(10, 15, 70);
+    padding-top: 4em;
+    border: 0.5vh solid rgb(245, 221, 176);
+    border-right:  0.25vh solid rgb(245, 221, 176);
+    border-left:  0.25vh solid rgb(245, 221, 176);
+    height: 23.9vh;
+}
+.three3{
+    flex: 1;
+    background:rgb(10, 15, 70);
+    padding-top: 4em;
+    border: 0.5vh solid rgb(245, 221, 176);
+    border-left:  0.25vh solid rgb(245, 221, 176);
+    height: 23.9vh;
+    
+}
+
+a{
+    text-decoration: none;  
+    color: black;
+    height: 33.33vh;
+    transition: all 1s;
+
+}
+
+h1{
+    color: rgb(245, 221, 176);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dark{
+    color: rgb(245, 221, 176);
+}
+a:hover{
+    background: rgb(10, 15, 70);
+    height: 19.7vh;
+    border-top: solid 2.66vh rgb(245, 221, 176);
+    border-bottom: solid 2.66vh rgb(245, 221, 176);
+    color: rgb(245, 221, 176);
+    
+}
